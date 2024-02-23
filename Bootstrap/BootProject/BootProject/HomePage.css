@@ -1,0 +1,83 @@
+.navbar
+{
+	background-image: linear-gradient(to right,#edba98,#e8a476,#de7d3c,#f26e16)
+}
+.logo
+{
+	font-family: Arial Black;
+	color: white;
+	font-size: 27px;
+}
+.p
+{
+	font-size: 35px;
+	color: red;
+}
+.navopt
+{
+	color: black;
+	font-size: 25px;
+	font-weight: bolder;
+	font-family: Calibri;
+}
+.navopt:hover
+{
+	color: royalblue;
+}
+.abt
+{
+	margin-top: 70px;
+}
+.info p
+{
+	font-size: 25px;
+	font-family: Comic Sans MS;
+	font-weight: bold;
+	line-height: 40px;
+	text-align: justify;
+	padding: 25px;
+	text-indent: 20%;
+}
+#info1
+{
+	font-size: 25px;
+	font-family: Comic Sans MS;
+	font-weight: bold;
+	line-height: 40px;
+	text-align: justify;
+	padding: 25px;
+	text-indent: 20%;
+}
+.card-title
+{
+	font-size: 25px;
+	color: red;
+	font-weight: bolder;
+}
+.card-deck
+{
+	margin: 10px;
+}
+.quote h1
+{
+	color: orangered;
+	font-weight: bolder;
+	font-size: 80px;
+}
+.quote
+{
+	background-color: lightgrey;
+	height: 100px;
+}
+.carousela
+{
+	position: relative;
+	top:20px;
+}
+.footer
+{
+	height: 300px;
+	width: 100%;
+	background-color: grey;
+
+}

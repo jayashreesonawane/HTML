@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+		.mdiv
+		{
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			height: 100vh;
+			width: 100%;
+			display: inline-flex;
+		}
+
+		.dimg
+		{
+			width: 50%;
+			background-color: orange;
+			background-image: url("");
+			background-size: contain;
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+		}
+
+		.frm
+		{
+			height: 500px;
+			width: 200px;
+			margin-top: 20px;
+			margin-left: 100%;
+		}
+
+		.lgn input
+		{
+			width: 100%;
+			margin-top: 10px;
+			height: 30px;
+			border: none;
+			border-bottom: 2px solid black;
+			font-weight: bolder;
+			padding-left: 20px;
+		}
+
+		.lg
+		{
+			font-size: 30px;
+			font-weight: bolder;
+			color: royalblue;
+		}
+
+		.lbtn
+		{
+			width: 100%;
+			background-color: royalblue;
+			color: white;
+			font-weight: bolder;
+			font-size: 20px;
+			border-radius: 10px;
+			cursor: pointer;
+		}
+
+		.lbtn:hover
+		{
+			border: 2px solid greenyellow;
+		}
+
+		a
+		{
+			text-decoration: none;
+			color: black;
+			font-weight: bolder;
+			font-size: 20px;
+		}
+
+		a:hover
+		{
+			text-decoration: underline;
+		}
+	</style>
+	<title>Login Form</title>
+</head>
+<body>
+	<div class="mdiv" >
+		<div class="dimg" ></div>
+
+		<div class="lgnfrm" >
+			<div class="frm" >
+				<h2 align="center" class="lg">LOGIN</h2>
+				<form class="lgn">
+					<input type="text" name="un" placeholder="USERNAME">
+					<input type="password" name="pass" placeholder="PASSWORD">
+					<p><a href="#">Forgot Password</a></p>
+					<input type="submit" name="lgn" value="LOGIN" class="lbtn" style="border-bottom: none;">
+					<p><a href="#">Create Account</a></p>
+				</form>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

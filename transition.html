@@ -1,0 +1,41 @@
+<!DOCTYPE html>.
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+		div
+		{
+			height: 100px;
+			width: 100px;
+			background-color: firebrick;
+			transition-property: width;
+			margin-top: 5px;
+		}
+		div:hover
+		{
+			width: 100%;
+			transition-duration: 5s;
+/*			transition-delay: 3s;*/
+		}
+		.d1{transition-timing-function: ease;}
+		.d2{transition-timing-function: ease-in;}
+		.d3{transition-timing-function: ease-out;}
+		.d4{transition-timing-function: ease-in-out;}
+		.d5{transition-timing-function: linear;}
+		.d6{transition-timing-function: steps(9);}
+
+	</style>
+	<title>Transition Property</title>
+</head>
+<body>
+	<div class="d1"></div>
+	<div class="d2"></div>
+	<div class="d3"></div>
+	<div class="d4"></div>
+	<div class="d5"></div>
+	<div class="d6"></div>
+
+</body>
+</html>

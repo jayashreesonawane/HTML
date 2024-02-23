@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+		.anim
+		{
+			height: 100px;
+			width: 100px;
+			background-color: gray;
+			animation-name: anim;
+			animation-direction: right;
+			animation-duration: 5s;
+			
+		}
+		@keyframes anim
+		{
+			25%
+			{
+				left: 550px;
+				top: 50px;
+				background-color: orange;
+				transform: rotate(360deg);
+				border-radius: 50px;
+			}
+			50%
+			{
+				left: 550px;
+				top: 100px;
+				background-color: yellow;
+				transform: rotate(180deg);
+			}
+			75%
+			{
+				left: 550px;
+				top: 100px;
+			}
+		}
+	</style>
+	<title>Animation</title>
+</head>
+<body>
+	<div class="anim"></div>
+</body>
+</html>

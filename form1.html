@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form Tag</title>
+</head>
+<body>
+	<div>
+		<form>
+			<fieldset>
+				<legend align="center">Login Form</legend>
+
+				<label>Username<sup style="color: red;">*</sup>: </label>
+				<input type="text" name="user" pattern="[A-Z,a-z,0-9]{10,15}"><br><br>
+
+				<label>Phone No.<sup style="color: red;">*</sup>: </label>
+				<input type="text" name="phone" required pattern="[6-9]{1}[0-9]{9}"><br><br>
+
+				<label>Pin Code : </label>
+				<input type="text" name="pin" pattern="[1-9]{1}[0-9]{5}"><br><br>
+				
+				<input type="submit" name="submit">
+			</fieldset>
+		</form>
+	</div>
+
+</body>
+</html>
